@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+kdb{
+    border: 1px solid red;
+    width: 4em;
+    height: 4em;
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+}
+
+kdb > button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+kdb:hover  > button {
+    display: inline-block;
+}
+
+main {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#mainDiv {
+    display: inline-block;
+    text-align: center;
+}
+
+#mainDiv > div:nth-child(2) {
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+#mainDiv > div:nth-child(3) {
+    margin-left: 2em;
+    margin-top: 1em;
+}
